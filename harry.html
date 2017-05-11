@@ -45,7 +45,7 @@
 		</div ><!-- end footer -->
 	</header><!-- end header -->
 
-	<section vocab="https://schema.org/" type="Book" class="main clearfix">
+	<section class="main clearfix">
 
 		<section class="top">	
 			<div class="wrapper content_header clearfix">
@@ -63,14 +63,17 @@
 		</section><!-- end top -->
 
 		<section class="wrapper">
-			<div class="content">
+			<div vocab="https://schema.org/" type="Book" class="content">
 				
 
-				<h2>SINOPSIS</h2>
+				
 
-<img src="img/harry.jpg" hspace="10" vspace="10" style="float: right;" />
+				
 
-<div property="description">
+				<div property="description">
+					<h2>SINOPSIS</h2>
+					
+				<img property="image" src="img/harry.jpg" hspace="10" vspace="10" style="float: right;" />
  
 				Harry Potter crece en la casa de sus tíos, los Dursley, quienes le ocultan su verdadera historia familiar; al cumplir Harry once años de edad, empiezan a llegarle cartas de remitente desconocido, que van aumentando en número a medida que sus tíos no dejan que las abra. Las mismas traen la noticia de que el niño ha sido admitido en el Colegio Hogwarts de Magia y Hechicería ya que, al igual que sus padres, tiene poderes mágicos.
 				El Colegio Hogwarts, es el principal escenario donde suceden los hechos de la serie de novelas.
@@ -82,7 +85,7 @@
 
 				Después de una charla reveladora con el director del instituto, Albus Dumbledore, Harry se reencuentra con sus amigos y parte de regreso a la casa de sus tíos, ya que el año lectivo ha concluido.
 
- </div>
+				 </div>
 				
 
 				<div property="creator" typeof="Person">
@@ -97,14 +100,18 @@
 					<a class="selected">26 de Junio de 1997/>
 				</div>
 					
-				
-				
-				<h2>GENERO</h2>
+				<div property="genre" content="Ficcion">
+					<h2>GENERO</h2>
 					<a href="ficcion.html" class="selected">Ficcion<a/>
-				<h2>EDITORIAL</h2>
-					<a href="salamandra.html" class="selected">bloomsbury<a/>
+				</div>
 				
-
+				<div property="publisher" typeof="Organization">
+					<h2>EDITORIAL</h2>
+					<a href="salamandra.html" class="selected">bloomsbury<a/>
+				</div>
+				
+				
+				
 				
 			
 			</div><!-- end content -->
