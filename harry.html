@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Magnetic - Stunning Responsive HTML5/CSS3 Photography Template</title>
+	<title>BOOKEVERYWHERE</title>
 	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
+	<meta name="author" content="https://bookeverywhere.github.io">
 	<meta name="description" content="LIBRO"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -45,7 +45,7 @@
 		</div ><!-- end footer -->
 	</header><!-- end header -->
 
-	<section class="main clearfix">
+	<section vocab="https://schema.org/" type="Book" class="main clearfix">
 
 		<section class="top">	
 			<div class="wrapper content_header clearfix">
@@ -58,7 +58,7 @@
 					</ul>							
 					
 				</div><!-- end work_nav -->
-				<h1 class="title">HarryPotter y La Piedra Filosofal</h1>
+				<h1 property="name" class="title">HarryPotter y La Piedra Filosofal</h1>
 			</div>		
 		</section><!-- end top -->
 
@@ -68,8 +68,10 @@
 
 				<h2>SINOPSIS</h2>
 
-<div>
- <img src="img/harry.jpg" hspace="10" vspace="10" style="float: right;" />
+<img src="img/harry.jpg" hspace="10" vspace="10" style="float: right;" />
+
+<div property="description">
+ 
 				Harry Potter crece en la casa de sus tíos, los Dursley, quienes le ocultan su verdadera historia familiar; al cumplir Harry once años de edad, empiezan a llegarle cartas de remitente desconocido, que van aumentando en número a medida que sus tíos no dejan que las abra. Las mismas traen la noticia de que el niño ha sido admitido en el Colegio Hogwarts de Magia y Hechicería ya que, al igual que sus padres, tiene poderes mágicos.
 				El Colegio Hogwarts, es el principal escenario donde suceden los hechos de la serie de novelas.
 				Se descubre entonces que los Potter no murieron en un accidente de coche como se le había dicho a Harry, sino que habían sido asesinados en la noche de Halloween por un hechicero tenebroso conocido como lord Voldemort, quien había aterrorizado a la comunidad mágica británica años atrás. Sin embargo, algo ocurrió esa noche: Voldemort consiguió matar al matrimonio Potter pero no pudo asesinar al bebé, perdió su cuerpo y le dejó al niño una cicatriz permanente en forma de rayo en su frente.
@@ -83,9 +85,11 @@
  </div>
 				
 
-			
-				<h2>AUTOR</h2>
-				<a href="AHARRY.html" class="selected">J.K.ROWLING<a/>
+				<div property="creator" typeof="Person">
+					<meta property="name" content="J.K.Rowling">
+					<a class="selected">J.K.ROWLING<a/>
+				</div>
+
 					
 				<h2>FECHA DE PUBLICACION</h2>
 					<p>26 de junio de 1997</p>
