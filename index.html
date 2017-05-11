@@ -16,13 +16,13 @@
 </head>
 <body>
 
-	<header>
+	<header vocab="http://schema.org/" typeof="WebPage">
 		<div class="logo">
 			<a href="index.html"><img src="img/logo.png" title="BOOKEVERYWHERE" alt="BOOKEVERYWHERE"/></a>
 		</div><!-- end logo -->
 
 		<div id="menu_icon"></div>
-		<nav>
+		<nav  property="breadcrumb">
 			<ul>
 				<li><a href="index.html" class="selected">Inicio</a></li>
 				<li><a href="libros.html">Libros</a></li>
@@ -47,109 +47,111 @@
 		</div ><!-- end footer -->
 	</header><!-- end header -->
 
-	<section class="main clearfix">
-		<div class="work">
-			<a href="inner.html">
+	<section vocab="http://schema.org/" typeof="BreadcrumbList"  class="main clearfix">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/tomsawyer.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"Las aventuras de Tom Sawyer"</h1><br>
+						<h1 property="name">"Las aventuras de Tom Sawyer"</h1><br>
 						<h1>Mark Twain</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/alicia.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"Alicia y Pais de las Maravillas"</h1><br>
-						<h1>"Lewis Carroll"</h1>
+						<h1 property="name">"Alicia y Pais de las Maravillas"</h1><br>
+						<div property="creator" typeof="Person">
+							<h1>"Lewis Carroll"</h1>
+						</div>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/chica.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"La chica del Lago"</h1><br>
+						<h1 property="name">"La chica del Lago"</h1><br>
 						<h1>Steph Bowe</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/perros.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"Los Perros Hambrientos"</h1><br>
+						<h1 property="name">"Los Perros Hambrientos"</h1><br>
 						<h1>Ciro Alegria</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/divina.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"La Divina Comedia"</h1><br>
+						<h1 property="name">"La Divina Comedia"</h1><br>
 						<h1>Dante Alighieri</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/historia.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"Historia del mundo antiguo"</h1><br>
+						<h1 property="name">"Historia del mundo antiguo"</h1><br>
 						<h1>Gonzalo Bravo Castañeda</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/work6.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"Thor"</h1><br>
+						<h1 property="name">"Thor"</h1><br>
 						<h1>Stan Lee</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="inner.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="inner.html">
 				<img src="img/gato.jpg" class="media" alt=""/>
 				<div class="caption">
 					<div class="work_title">
-						<h1>"El gato negro"</h1><br>
+						<h1 property="name">"El gato negro"</h1><br>
 						<h1>Edgar Allan Poe</h1>
 					</div>
 				</div>
 			</a>
 		</div>
 
-		<div class="work">
-			<a href="harry.html">
+		<div property="itemListElement" typeof="ListItem" class="work">
+			<a property="item" typeof="WebPage" href="harry.html">
 				<img src="img/harry.jpg" class="media" alt=""/>
  				<div class="caption">
  					<div class="work_title">
-						<h1>"HarryPotter y la Piedra Filosofal"</h1><br>
+						<h1 property="name">"HarryPotter y la Piedra Filosofal"</h1><br>
  						<h1>J.K.ROWLING</h1>
  					</div>
  				</div>
