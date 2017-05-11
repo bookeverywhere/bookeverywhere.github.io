@@ -13,13 +13,13 @@
 </head>
 <body>
 
-	<header>
+	<header  vocab="http://schema.org/" typeof="WebPage">
 		<div class="logo">
 			<a href="index.html"><img src="img/logo.png" title="JKROWLING" alt="JKROWLING"/></a>
 		</div><!-- end logo -->
 
 		<div id="menu_icon"></div>
-		<nav>
+		<nav  property="breadcrumb">
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="libros.html">Libros</a></li>
@@ -64,18 +64,25 @@
 
 		<section class="wrapper">
 			<div class="content">
-<div>				
-<img src="img/editorialharry.jpg" hspace="10" vspace="10" style="float: right;" />
-	<h2>PAIS DE ORIGEN</h2>
-            <p>Inglaterra</p>
-
-  
-				<h2>FUNDACION</h2>
-					<p>31 de Julio de 1986</p>
-          <h2>FUNDADOR</h2>
-					<p>Nigel Newton</p>
-          
+			<div vocab="http://schema.org/" typeof="Organization" class="content">				
+				<img property="logo" src="img/editorialharry.jpg" hspace="10" vspace="10" style="float: right;" />
 				
+				<div property="location" >
+					<h2>PAIS DE ORIGEN</h2>
+					<p>Inglaterra</p>
+				</div>
+  
+				<div property="foundingDate" content="26-07-1986">
+					<h2>FUNDACION</h2>
+					<p>31 de Julio de 1986</p>
+				</div>
+				
+				<div property="founder" content="26-07-1986">
+					<h2>FUNDADOR</h2>
+					<p>Nigel Newton</p>
+				</div>
+					
+          		
 				
 				
 				<h2>AUTORES PULICADOS</h2>
@@ -85,7 +92,7 @@
 					<a href="AHARRY.html" class="selected">J. K. Rowling<a/>
 					<h2>PAGINA WEB</h2>
 					<a href="http://www.bloomsbury.com/us/" class="selected">Bloomsbury.com<a/></br>
- </div>
+			 </div>
 				
 				
 			
